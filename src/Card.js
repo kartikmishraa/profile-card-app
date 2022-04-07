@@ -23,16 +23,16 @@ const Card = () => {
   return (
     <div className="card">
       <div className="user-image">
-        <img src="user.png" alt="user-pic"></img>
+        <img src={user.profile_image} alt="user-pic"></img>
       </div>
 
       <div className="user-info">
-        <div className="name">Kartik Mishra</div>
-        <div className="handle">@kartikmishraa</div>
-        <div className="summary">hi i am Kartik and I am learning ReactJS!</div>
+        <div className="name">{user.name}</div>
+        <div className="handle">@{user.username}</div>
+        <div className="summary">{user.summary}</div>
       </div>
 
-      <div className="location">Noida, India</div>
+      <div className="location">{user.location}</div>
     </div>
   );
 };
