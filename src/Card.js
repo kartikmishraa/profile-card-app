@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-const Card = () => {
-  const [user, setUser] = useState({});
+const Card = (props) => {
+  const [user, setUser] = useState({}); // state variable to store user data fetched
 
   useEffect(() => {
     async function fetchData() {
-      let username = "ishandeveloper";
+      let username = props.username;
 
       // Retrieving JSON from DEV_API
       let dev_data = await fetch(
