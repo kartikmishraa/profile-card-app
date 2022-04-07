@@ -10,13 +10,14 @@
 
 :root {
   --main-color: #eee;
-  --dark-color: #2c3e50;
+  --dark-color: #00092c;
   --text-color: #7f7f7f;
 }
 
 .wrapper {
   min-height: 100vh;
-  background: var(--main-color);
+  /* background: var(--main-color); */
+  background: #fff6ea;
 
   display: flex;
   align-items: center;

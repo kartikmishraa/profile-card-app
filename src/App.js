@@ -4,9 +4,9 @@ import Card from "./Card";
 const App = () => {
   return (
     <div className="wrapper">
-      <Card username="ben" />
-      <Card username="ishandeveloper" />
-      <Card username="graciegregory" />
+      <Card username="tmchuynh" />
+      <Card username="jeremyf" />
+      <Card username="sm0ke" />
     </div>
   );
 };
